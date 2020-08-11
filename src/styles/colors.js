@@ -1,6 +1,7 @@
 /* Arquivo de Cores  */
 
 export const colors = {
-	primary: '#0d8dec',
-	secondary: '#353535'
+	primary: '#094563',
+	secondary: '#1868DF',
+	light: '#FFFFFF'
 }

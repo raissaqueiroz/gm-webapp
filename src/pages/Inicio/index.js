@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { Message } from 'rsuite';
+import React, { useEffect, useState } from 'React';
+
 import Loader from '../../components/Loader';
 import Header from '../../components/Header';
 
-import { ContainerVh100 } from '../../styles/containers';
-
-export default function Home() {
+export default function Inicio(){
 	const [loading, setLoading] = useState(true);
 
 	useEffect(() => {
@@ -17,6 +15,5 @@ export default function Home() {
 	}
 	return (
 		<Header />
-
 	);
 }

@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'SegoeUI';
+	src: local('SegoeUI'), url(../assets/fonts/segoe-ui.otf) format('otf');
+}
+
+h4 {
+	font-family: 'SegoeUI' !important;
+	color: #FFF !important ;
+	font-weight: 700 !important;
+	font-size: 0.9rem !important
+}
+
+.contato-descricao span {
+	color: #fff !important;
+	font-weight: normal;
+	font-family: 'SegoeUI' !important;
+	font-size: 0.8rem !important
+
+}
