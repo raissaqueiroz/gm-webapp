@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @font-face {
 	font-family: 'SegoeUI';
 	src: local('SegoeUI'), url(../assets/fonts/segoe-ui.otf) format('otf');
+}
+@font-face {
+	font-family: 'Helvetica';
+	src: local('Helvetica'), url(../assets/fonts/helvetica.ttf) format('ttf');
 }
 
 h4 {
@@ -16,4 +21,122 @@ h4 {
 	font-family: 'SegoeUI' !important;
 	font-size: 0.8rem !important
 
+}
+
+/* MENU */
+.rs-nav-horizontal {
+	display: flex !important;
+	justify-content: center !important;
+	height: 40px !important;
+}
+
+.rs-nav-horizontal ul {
+	width: 80% !important;
+    display: flex !important;
+	justify-content: space-between !important;
+	align-items: flex-end !important;
+}
+
+.rs-nav-horizontal ul li a::before{
+	background-color: #00419F !important;
+}
+.rs-nav-horizontal ul li a {
+	color: #707070 !important;
+	font-weight: 600 !important;
+	font-family: 'SegoeUI' !important;
+	font-size: 1rem !important
+}
+
+/* Carrossel */
+
+.atendimento-depoimentos{
+	background-color: #FFF8F9;
+	padding:50px;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
+	height:100%;
+  }
+
+  .awssld {
+	  height: 400px !important
+  }
+
+.slider_1 {
+	background: url(../assets/images/slide_1.jpg) !important;
+	background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+	width: 100% !important;
+	height: 100% !important;
+	display: flex !important;
+	justify-content: flex-start !important;
+	align-items: center !important;
+}
+
+.slider_1 div, .slider_2 div, .slider_3 div {
+	padding-left: 15% !important
+}
+.slider_2 {
+	background: url(../assets/images/slide_1.jpg) !important;
+	background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+	width: 100% !important;
+	height: 100% !important;
+	display: flex !important;
+	justify-content: flex-start !important;
+	align-items: center !important;
+}
+.slider_3 {
+	background: url(../assets/images/slide_1.jpg) !important;
+	background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+	width: 100% !important;
+	height: 100% !important;
+	display: flex !important;
+	justify-content: flex-start !important;
+	align-items: center !important;
+}
+
+.slider_1 div h2, .slider_2 div h2, .slider_3 div h2 {
+	font-family: 'SegoeUI' !important;
+	color: #FFF !important ;
+	font-weight: 700 !important;
+	font-size: 3rem !important
+}
+
+.slider_1 div .btn-saiba-mais, .slider_2 div .btn-saiba-mais, .slider_3 div .btn-saiba-mais {
+	margin-top: 40px !important;
+	width: 20%;
+	height: 50px !important;
+	background: rgb(0,73,183);
+	background: linear-gradient(90deg, rgba(0,73,183,1) 35%, rgba(0,153,255,1) 100%);
+	font-family: 'Roboto', sans-serif !important;
+	color: #FFF !important ;
+	font-weight: 700 !important;
+	font-size: 1rem !important;
+}
+
+.awssld__bullets {
+	bottom: 10px !important
+}
+
+
+.awssld__bullets button:not(.awssld__bullets--active) {
+	background: #FFF !important;
+}
+
+.awssld__bullets--active {
+	background: rgb(0,73,183) !important;
+	background: linear-gradient(20deg, rgba(0,73,183,1) 35%, rgba(0,153,255,1) 100%) !important;
+}
+
+.parallax {
+	background: url(../assets/images/servicos.png) !important;
+	background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
 }

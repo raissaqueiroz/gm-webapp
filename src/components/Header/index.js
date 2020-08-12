@@ -1,6 +1,8 @@
 import React from 'react';
 import { Header } from 'rsuite';
 
+import Nav from '../../components/Nav';
+
 import {
 	ContainerHeader,
 	ContainerLogo,
@@ -23,13 +25,13 @@ import {
 
 import '../../styles/fonts.css';
 
-import logo from '../../assets/logo.png';
-import iconLocalizacao from '../../assets/localizacao.png'
-import iconTelefone from '../../assets/contato.png'
-import iconFacebook from '../../assets/facebook.png'
-import iconInstagram from '../../assets/instagram.png'
+import logo from '../../assets/images/logo.png';
+import iconLocalizacao from '../../assets/images/localizacao.png'
+import iconTelefone from '../../assets/images/contato.png'
+import iconFacebook from '../../assets/images/facebook.png'
+import iconInstagram from '../../assets/images/instagram.png'
 
-const HeaderComponent = ({ history }) => (
+const HeaderComponent = ({ active, onSelect }) => (
 	<Header>
 		<div style={ContainerHeader}>
 			<div style={ContainerLogo}>
@@ -59,10 +61,10 @@ const HeaderComponent = ({ history }) => (
 				<div style={{ContainerSocial}}>
 					<img src={iconFacebook} style={IconFacebook} onClick={() => window.location.href='https://facebook.com'}/>
 					<img src={iconInstagram} style={IconInstagram} onClick={() => window.location.href='https://instagram.com'} />
-
 				</div>
 			</div>
 		</div>
+		<Nav active={active} onSelect={onSelect} />
 	</Header>
 );
 
