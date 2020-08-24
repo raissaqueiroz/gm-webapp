@@ -131,7 +131,7 @@ export default function Servicos(){
 							</div>
 							<div>
 								<h2 style={{fontFamily: 'Helvetica', color: '#00419F', marginTop: 40, marginBottom: 20}}>Especifiações: </h2>
-								<div style={{display: 'flex', justifyContent: 'space-between'}}>
+								<div style={{display: 'flex', justifyContent: 'space-between',  width: '70%'}}>
 									<div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center'}}>
 										<span style={{textAlign: 'center', width: '4rem', height: '4rem', borderRadius: '4rem', padding: '25%', background: '#00419F', color: '#FFF', fontFamily: 'Helvetica', fontWeight: 700, fontSize: '1.2rem'}}>8m</span>
 										<span>Largura<br/>max.</span>
@@ -161,7 +161,7 @@ export default function Servicos(){
 							</div>
 							<div>
 								<h2 style={{fontFamily: 'Helvetica', color: '#00419F', marginTop: 40, marginBottom: 20}}>Especifiações: </h2>
-								<div style={{display: 'flex', justifyContent: 'space-between'}}>
+								<div style={{display: 'flex', justifyContent: 'space-between',  width: '70%'}}>
 									<div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center'}}>
 										<span style={{textAlign: 'center', width: '4rem', height: '4rem', borderRadius: '4rem', padding: '25%', background: '#00419F', color: '#FFF', fontFamily: 'Helvetica', fontWeight: 700, fontSize: '1.2rem'}}>8m</span>
 										<span>Largura<br/>max.</span>
