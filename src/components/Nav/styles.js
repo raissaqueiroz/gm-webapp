@@ -3,7 +3,7 @@ export const styles = {
 		position: 'fixed',
 		width: '46px',
 		height: '40px',
-		right: '14%',
+		right: '5%',
 		top: '40px'
 	},
 	bmBurgerBars: {
