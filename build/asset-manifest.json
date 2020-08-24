@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b73a57e3.chunk.css",
+    "main.js": "/static/js/main.193de64e.chunk.js",
+    "main.js.map": "/static/js/main.193de64e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b94bdb93.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b94bdb93.js.map",
+    "static/css/2.142223b1.chunk.css": "/static/css/2.142223b1.chunk.css",
+    "static/js/2.b5cfb0b4.chunk.js": "/static/js/2.b5cfb0b4.chunk.js",
+    "static/js/2.b5cfb0b4.chunk.js.map": "/static/js/2.b5cfb0b4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6a01a888ea1beb5b78ed6aeb754537ee.js": "/precache-manifest.6a01a888ea1beb5b78ed6aeb754537ee.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.142223b1.chunk.css.map": "/static/css/2.142223b1.chunk.css.map",
+    "static/css/main.b73a57e3.chunk.css.map": "/static/css/main.b73a57e3.chunk.css.map",
+    "static/js/2.b5cfb0b4.chunk.js.LICENSE.txt": "/static/js/2.b5cfb0b4.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/static/media/slide_1.174a9023.jpg",
+    "static/media/logo.png": "/static/media/logo.33091742.png",
+    "static/media/logo_nova.png": "/static/media/logo_nova.e6e22f8e.png",
+    "static/media/porta_1.jpg": "/static/media/porta_1.e7922de0.jpg",
+    "static/media/porta_2.jpg": "/static/media/porta_2.e744fc7f.jpg",
+    "static/media/porta_3.jpg": "/static/media/porta_3.eed6c05b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b94bdb93.js",
+    "static/css/2.142223b1.chunk.css",
+    "static/js/2.b5cfb0b4.chunk.js",
+    "static/css/main.b73a57e3.chunk.css",
+    "static/js/main.193de64e.chunk.js"
+  ]
+}
