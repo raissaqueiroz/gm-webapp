@@ -32,7 +32,7 @@ import iconFacebook from '../../assets/images/facebook.png'
 import iconInstagram from '../../assets/images/instagram.png'
 
 const HeaderComponent = ({ activeKey }) => (
-	<Header style={{marginBottom: 120}}>
+	<Header style={{marginBottom: 120, width: "100% !important", position: 'fixed', zIndex: 99999, top: 0, boxShadow: '1px 1px 4px 1px rgba(76,86,82, 0.4)'}}>
 		<Grid  style={ContainerHeader} id="outer-container">
 			<Col xs={12} style={ContainerLogo}>
 				<img src={logo} style={Logo} />

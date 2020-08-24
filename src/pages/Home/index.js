@@ -48,7 +48,7 @@ export default function Home() {
 		return <Loader />;
 	}
 	return (
-		<div style={{width: '100%'}}>
+		<>
 			<Header activeKey="home" />
 			<AwesomeSlider className="homeCarrossel" animation="cubeAnimation" style={{height: '400px !important', marginTop: '120px !important'}} >
 				<div className="slider_1">
@@ -172,7 +172,7 @@ export default function Home() {
 				</FlexboxGrid>
 			</FlexboxGrid>
 			<Footer/>
-		</div>
+		</>
 
 	);
 }
