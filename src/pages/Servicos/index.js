@@ -79,7 +79,7 @@ export default function Servicos(){
 	return (
 		<>
 			<Header activeKey="portas" />
-			<FlexboxGrid justify="center" className="parallaxPortas" style={{paddingBottom: 100, marginTop: '120px !important'}}>
+			<FlexboxGrid justify="center" className="parallaxPortas" style={{paddingBottom: 100, paddingTop: 150, marginTop: '120px !important'}}>
 				<FlexboxGrid.Item componentClass={Col} colspan={24} md={20} style={{display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', marginTop: 80}}>
 					<h2 style={{textAlign: 'left', fontSize: '2.5rem', color: '#FFF', fontFamily: 'SegoeUI', fontWeight: 700}}>Nossas Portas</h2>
 				</FlexboxGrid.Item>
@@ -102,11 +102,11 @@ export default function Servicos(){
 							<div>
 								<h2 style={{fontFamily: 'Helvetica', color: '#00419F', marginTop: 40, marginBottom: 20}}>Especifiações: </h2>
 								<div style={{display: 'flex', justifyContent: 'space-between'}}>
-									<div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center'}}>
+									<div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center', width: '70%'}}>
 										<span style={{textAlign: 'center', width: '4rem', height: '4rem', borderRadius: '4rem', padding: '25%', background: '#00419F', color: '#FFF', fontFamily: 'Helvetica', fontWeight: 700, fontSize: '1.2rem'}}>8m</span>
 										<span>Largura<br/>max.</span>
 									</div>
-									<div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center'}}>
+									<div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center', width: '70%'}}>
 										<span style={{textAlign: 'center', width: '4rem', height: '4rem', borderRadius: '4rem', padding: '25%', background: '#00419F', color: '#FFF', fontFamily: 'Helvetica', fontWeight: 700, fontSize: '1.2rem'}}>4m</span>
 										<span>Altura<br/>max.</span>
 									</div>
