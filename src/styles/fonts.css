@@ -1,3 +1,4 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @font-face {
 	font-family: 'SegoeUI';
@@ -59,11 +60,35 @@ h4 {
 	height:100%;
   }
 
-  .awssld {
-	  height: 400px !important;
-	  margin-top: 120px !important
-  }
+.homeCarrossel {
+	height: 500px !important;
+	margin-top: 120px !important
+}
+.empresaCarrossel {
+	height: 450px !important;
+	margin-top: 0px !important;
+	/* padding-bottom: 80px !important */
 
+}
+.empresaCarrossel .awssld__content {
+	background: #f7f7f7 !important;
+
+}
+
+.empresaCarrossel .awssld__bullets {
+	bottom: 70px !important;
+	z-index: 9999 !important;
+}
+
+.empresaCarrossel .awssld__bullets button:not(.awssld__bullets--active) {
+	background: #FFF !important;
+	border: 1px solid rgb(0,73,183) !important
+}
+
+.empresaCarrossel .awssld__bullets--active {
+	background: rgb(0,73,183) !important;
+	background: linear-gradient(20deg, rgba(0,73,183,1) 35%, rgba(0,153,255,1) 100%) !important;
+}
 .slider_1 {
 	background: url(../assets/images/slide_1.jpg) !important;
 	background-size: cover !important;
@@ -109,34 +134,52 @@ h4 {
 	font-size: 3rem !important
 }
 
-.slider_1 div .btn-saiba-mais, .slider_2 div .btn-saiba-mais, .slider_3 div .btn-saiba-mais {
+.slider_1 div .btn-saiba-mais, .slider_2 div .btn-saiba-mais, .slider_3 div .btn-saiba-mais, .btn-enviar {
 	margin-top: 40px !important;
 	/* width: 20%; */
 	height: 50px !important;
 	background: rgb(0,73,183);
-	background: linear-gradient(90deg, rgba(0,73,183,1) 35%, rgba(0,153,255,1) 100%);
+	background: linear-gradient(90deg, rgba(0,73,183,1) 35%, rgba(0,153,255,1) 100%) !important;
 	font-family: 'Roboto', sans-serif !important;
 	color: #FFF !important ;
 	font-weight: 700 !important;
 	font-size: 1rem !important;
 }
 
-.awssld__bullets {
+.homeCarrossel .awssld__bullets {
 	bottom: 10px !important
 }
 
 
-.awssld__bullets button:not(.awssld__bullets--active) {
+.homeCarrossel .awssld__bullets button:not(.awssld__bullets--active) {
 	background: #FFF !important;
 }
 
-.awssld__bullets--active {
+.homeCarrossel .awssld__bullets--active {
 	background: rgb(0,73,183) !important;
 	background: linear-gradient(20deg, rgba(0,73,183,1) 35%, rgba(0,153,255,1) 100%) !important;
 }
 
 .parallax {
 	background: url(../assets/images/servicos.png) !important;
+	background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+.parallaxEmpresa {
+	background: url(../assets/images/background-empresa.jpg) !important;
+	background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+.parallaxContato {
+	background: url(../assets/images/background-contato.jpg) !important;
+	background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+.parallaxPortas {
+	background: url(../assets/images/background-portas.jpg) !important;
 	background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
@@ -152,4 +195,18 @@ h4 {
 	color: #FFF !important ;
 	font-weight: 700 !important;
 	font-size: 1rem !important;
+}
+
+.rs-nav-horizontal ul .rs-nav-item-active a {
+	color: #1675e0 !important;
+}
+
+.rs-nav-horizontal ul li a {
+	font-size: 1rem !important;
+	font-family: 'SegoeUI' !important;
+}
+
+.rs-nav-horizontal ul li:hover a {
+	color: rgba(0,73,183,1) !important;
+	text-decoration: dotted !important;
 }

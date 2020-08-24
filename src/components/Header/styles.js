@@ -7,6 +7,7 @@ export const ContainerHeader = {
 	top: 0,
 	background: colors.light,
 	height: 120,
+	boxShadow: '1px 1px 4px 1px rgba(76,86,82, 0.4)',
 	// padding: '0 5%',
 	display: 'flex',
 	justifyContent: 'space-between',

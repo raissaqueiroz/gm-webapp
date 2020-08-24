@@ -31,13 +31,13 @@ import iconTelefone from '../../assets/images/contato.png'
 import iconFacebook from '../../assets/images/facebook.png'
 import iconInstagram from '../../assets/images/instagram.png'
 
-const HeaderComponent = ({ active, onSelect }) => (
-	<Header>
+const HeaderComponent = ({ activeKey }) => (
+	<Header style={{marginBottom: 120}}>
 		<Grid  style={ContainerHeader} id="outer-container">
 			<Col xs={2} style={ContainerLogo}>
 				<img src={logo} style={Logo} />
 			</Col>
-			<Nav />
+			<Nav activeKey={activeKey} />
 		</Grid>
 	</Header>
 

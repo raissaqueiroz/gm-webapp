@@ -21,7 +21,7 @@ export const ContainerHeaderAtendimento24 = {
 
 export const ContainerServicosParallax = {
 	width: '100%',
-	height: 600,
+	// height: 600,
 	display: 'flex',
 	flexDirection: 'column',
 	justifyContent: 'center',
@@ -30,7 +30,8 @@ export const ContainerServicosParallax = {
 	backgroundSize: 'cover !important',
     backgroundPosition: 'center center !important',
 	backgroundRepeat: 'no-repeat !important',
-	paddingTop: '40px'
+	paddingTop: '40px',
+	paddingBottom: '40px'
 }
 
 export const ContainerHeaderServicosParallax = {
@@ -42,17 +43,17 @@ export const ContainerHeaderServicosParallax = {
 }
 
 export const ContainerCardServicosParallax = {
-	padding: '0px 10%',
-	display: 'flex',
-	flexDirection: 'row',
-	justifyContent: 'space-between',
-	alignItems: 'center',
-	marginTop: 40
+	// padding: '0px 10%',
+	// display: 'flex',
+	// flexDirection: 'row',
+	// justifyContent: 'space-between',
+	// alignItems: 'center',
+	// marginTop: 40
 }
 
 export const CardServicosParallax = {
-	width: "45%",
-	height: 250,
+	// width: "45%",
+	height: 300,
 	display: 'flex',
 	justifyContent: 'flex-start',
 	alignItems: 'flex-start',
@@ -80,13 +81,13 @@ export const ContainerCardDescricaoServicosParallax = {
 }
 
 export const ContainerPortas = {
-	width: '100%',
-	height: 650,
-	display: 'flex',
-	flexDirection: 'column',
-	justifyContent: 'center',
-	alignItems: 'center',
-	paddingTop: '40px',
+	// width: '100%',
+	// height: 650,
+	// display: 'flex',
+	// flexDirection: 'column',
+	// justifyContent: 'center',
+	// alignItems: 'center',
+	paddingTop: 150,
 	background: '#FFF'
 }
 
@@ -106,7 +107,7 @@ export const ContainerGalleryPortas = {
 	alignItems: 'center'
 }
 export const ContainerCardPorta = {
-	width: '30%',
+	// width: '30%',
 	display: 'flex',
 	flexDirection: 'column',
 	justifyContent: 'space-between',

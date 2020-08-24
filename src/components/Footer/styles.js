@@ -1,40 +1,18 @@
 import { colors } from '../../styles/colors';
 
 export const ContainerHeader = {
-	width: '100%',
+	// width: '100%',
 	background: colors.primary,
-	height: 120,
-	padding: '0 10%',
-	display: 'flex',
-	justifyContent: 'space-between',
-	alignItems: 'center'
-}
-
-
-export const ContainerLogo = {
-	display: 'flex',
-	justifyContent: 'center',
-	alignItems: 'center'
-}
-
-export const Logo = {
-	width: 100,
-	height: 100,
-}
-
-export const ContainerContato = {
-	display: 'flex',
-	justifyContent: 'center',
-	alignItems: 'center',
-	width: '70%'
+	paddingTop: 40,
+	paddingBottom: 40
 }
 
 // Endereço
 
 export const ContainerLocalizacao = {
-	width: '50%',
 	display: 'flex',
-	alignItems: 'center'
+	alignItems: 'center',
+
 }
 
 export const ContainerIconLocalizacao = {
@@ -47,8 +25,8 @@ export const ContainerIconLocalizacao = {
 }
 
 export const IconLocalizacao = {
-	width: '2rem',
-	height: '2rem'
+	width: '2.5rem',
+	height: '2.5rem'
 }
 
 export const ContainerDescricaoLocalizacao = {
@@ -59,7 +37,6 @@ export const ContainerDescricaoLocalizacao = {
 }
 // Telefone
 export const ContainerTelefone = {
-	width: '50%',
 	display: 'flex',
 	alignItems: 'center'
 }
@@ -103,6 +80,5 @@ export const IconFacebook = {
 export const IconInstagram = {
 	width: '2.5rem',
 	height: '2.5rem',
-	marginTop: '5px',
 	cursor: 'pointer'
 }

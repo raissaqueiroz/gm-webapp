@@ -1,5 +1,5 @@
 import React from 'react';
-import { Footer } from 'rsuite';
+import { Footer, FlexboxGrid, Col } from 'rsuite';
 
 import Nav from '../../components/Nav';
 
@@ -33,13 +33,9 @@ import iconInstagram from '../../assets/images/instagram.png'
 
 const FoorterComponent = ({ active, onSelect }) => (
 	<Footer>
-		<div style={ContainerHeader}>
-			<div style={ContainerLogo}>
-				<img src={logo} style={Logo} />
-			</div>
-			<div style={ContainerContato}>
+		<FlexboxGrid justify="space-around" align="middle" style={ContainerHeader}>
 				{/* Localização */}
-				<div style={ContainerLocalizacao}>
+				<FlexboxGrid.Item componentClass={Col} colspan={24} md={8}  style={(window.innerWidth < 992) ? {...ContainerLocalizacao, justifyContent: 'flex-start', paddingLeft: '0px !important', marginLeft: '25%'} : {...ContainerLocalizacao, justifyContent: 'center'}}>
 					<div style={ContainerIconLocalizacao}>
 						<img src={iconLocalizacao} style={IconLocalizacao} />
 					</div>
@@ -47,9 +43,9 @@ const FoorterComponent = ({ active, onSelect }) => (
 						<h4>Rua Aleatporio do Desconhecido</h4>
 						<span>Duque de Caxias, RJ</span>
 					</div>
-				</div>
+				</FlexboxGrid.Item>
 				{/* Telefones */}
-				<div style={ContainerTelefone}>
+				<FlexboxGrid.Item componentClass={Col} colspan={24} md={8}  style={(window.innerWidth < 992) ? {...ContainerTelefone, justifyContent: 'flex-start', paddingLeft: '0px !important', marginLeft: '25%', marginTop: 20} : {...ContainerTelefone, justifyContent: 'center'}}>
 					<div style={ContainerIconTelefone}>
 						<img src={iconTelefone} style={IconTelefone} />
 					</div>
@@ -57,14 +53,18 @@ const FoorterComponent = ({ active, onSelect }) => (
 						<h4 style={{lineHeight: '15px', letterSpacing: '.1rem'}}>(21) 1234-5678</h4>
 						<h4 style={{ letterSpacing: '.1rem'}}>(21) 1234-5678</h4>
 					</div>
-				</div>
-				<div style={{ContainerSocial}}>
+				</FlexboxGrid.Item>
+				<FlexboxGrid.Item componentClass={Col} colspan={24} md={8}  style={(window.innerWidth < 992) ? {...ContainerSocial, justifyContent: 'flex-start', paddingLeft: '0px !important', marginLeft: '30%', marginTop: 20} : {...ContainerSocial, justifyContent: 'center'}}>
 					<img src={iconFacebook} style={IconFacebook} onClick={() => window.location.href='https://facebook.com'}/>
 					<img src={iconInstagram} style={IconInstagram} onClick={() => window.location.href='https://instagram.com'} />
-				</div>
-			</div>
-		</div>
+				</FlexboxGrid.Item>
+				<FlexboxGrid.Item style={{padding: '1% 0', display: 'flex', justifyContent: 'center'}} componentClass={Col} colspan={24} md={24}>
+					<h6 style={{marginTop: 60, color: '#FFF', textAlign: 'center'}}>Todos os direitos reservados. 2020.</h6>
+				</FlexboxGrid.Item>
+				{console.log('vai se fode')}
+				{console.log(window.innerWidth <992)}
+		</FlexboxGrid>
 	</Footer>
 );
 
-export default FooterComponent;
+export default FoorterComponent;
