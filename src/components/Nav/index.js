@@ -20,7 +20,6 @@ const NavComponent = ({ activeKey }) => {
 					<Nav.Item href="/portas" eventKey="portas">Portas</Nav.Item>
 					<Nav.Item href="/empresa" eventKey="empresa">Empresa</Nav.Item>
 					<Nav.Item href="/contato" eventKey="contato">Contato</Nav.Item>
-
 				</Nav>
 			</Col>
 		</>
