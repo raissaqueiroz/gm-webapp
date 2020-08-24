@@ -9,6 +9,11 @@
 	src: local('Helvetica'), url(../assets/fonts/helvetica.ttf) format('ttf');
 }
 
+body {
+	width: 100% !important;
+	max-width: 100% !important;
+	overflow-x: hidden !important;
+}
 h4 {
 	font-family: 'SegoeUI' !important;
 	color: #FFF !important ;

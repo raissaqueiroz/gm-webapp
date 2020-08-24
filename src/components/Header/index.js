@@ -34,7 +34,7 @@ import iconInstagram from '../../assets/images/instagram.png'
 const HeaderComponent = ({ activeKey }) => (
 	<Header style={{marginBottom: 120}}>
 		<Grid  style={ContainerHeader} id="outer-container">
-			<Col xs={3} style={ContainerLogo}>
+			<Col xs={12} style={ContainerLogo}>
 				<img src={logo} style={Logo} />
 			</Col>
 			<Nav activeKey={activeKey} />
