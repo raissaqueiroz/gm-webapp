@@ -32,13 +32,11 @@ import iconFacebook from '../../assets/images/facebook.png'
 import iconInstagram from '../../assets/images/instagram.png'
 
 const HeaderComponent = ({ activeKey }) => (
-	<Header style={{marginBottom: 120, width: "100%", position: 'fixed', zIndex: 99999, top: 0, boxShadow: '1px 1px 4px 1px rgba(76,86,82, 0.4)'}}>
-		<Grid  style={ContainerHeader} id="outer-container">
-			<Col xs={12} style={ContainerLogo}>
-				<img src={logo} style={Logo} />
-			</Col>
-			<Nav activeKey={activeKey} />
-		</Grid>
+	<Header  id="outer-container" style={{...ContainerHeader, marginBottom: 120, width: "100%", position: 'fixed', zIndex: 99999, top: 0, boxShadow: '1px 1px 4px 1px rgba(76,86,82, 0.4)'}}>
+		<div xs={12} style={(window.innerWidth < 992) ? {...ContainerLogo, width: '50%', paddingLeft: '5%'} : {...ContainerLogo, width: '30%'}}>
+			<img src={logo} style={Logo} />
+		</div>
+		<Nav activeKey={activeKey} />
 	</Header>
 
 );
