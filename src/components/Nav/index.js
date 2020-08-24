@@ -14,7 +14,7 @@ const NavComponent = ({ activeKey }) => {
 				</Menu>
 			</Col>
 
-			<Col smHidden={'true'} xs={10}>
+			<Col xsHidden={'true'} smHidden={'true'} xs={10}>
 				<Nav style={{width: '100%'}} activeKey={activeKey}>
 					<Nav.Item href="/" eventKey="home">Home</Nav.Item>
 					<Nav.Item href="/portas" eventKey="portas">Portas</Nav.Item>
