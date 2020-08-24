@@ -14,7 +14,8 @@ export const ContainerHeader = {
 export const ContainerLogo = {
 	display: 'flex',
 	justifyContent: 'flex-start',
-	alignItems: 'center'
+	alignItems: 'center',
+	paddingLeft: '5%'
 }
 
 export const Logo = {

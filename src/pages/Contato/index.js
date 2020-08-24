@@ -22,7 +22,7 @@ export default function Contato(){
 	return (
 		<>
 			<Header activeKey="contato" />
-			<FlexboxGrid justify="flex-start" className="parallaxContato" style={{paddingBottom: 150, marginTop: '120px !important'}}>
+			<FlexboxGrid justify="flex-start" className="parallaxContato" style={{paddingBottom: 150, paddingTop: 150, marginTop: '120px !important'}}>
 				<FlexboxGrid.Item componentClass={Col} colspan={24} md={15} style={{display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', marginTop: 80, marginLeft: '10%'}}>
 					<h2 style={{textAlign: 'left', fontSize: '2.5rem', color: '#FFF', fontFamily: 'SegoeUI', fontWeight: 700}}>Entre em Contato!</h2>
 					<p style={{marginTop: 40, textAlign: 'left', fontSize: '1.2rem', color: '#FFF', fontFamily: 'Roboto', fontWeight: 100}}>

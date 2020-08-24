@@ -30,7 +30,7 @@ export default function Empresa(){
 	return (
 		<>
 			<Header activeKey="empresa" />
-			<FlexboxGrid justify="center" className="parallaxEmpresa" style={{paddingBottom: 150, marginTop: '120px !important'}}>
+			<FlexboxGrid justify="center" className="parallaxEmpresa" style={{paddingBottom: 150,  paddingTop: 150, marginTop: '120px !important'}}>
 				<FlexboxGrid.Item componentClass={Col} colspan={24} md={20} style={{display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', marginTop: 80}}>
 					<h2 style={{textAlign: 'left', fontSize: '2.5rem', color: '#FFF', fontFamily: 'SegoeUI', fontWeight: 700}}>A Empresa</h2>
 					<strong style={{marginTop: 40, textAlign: 'left', fontSize: '1.2rem', color: '#FFF', fontFamily: 'Roboto', fontWeight: 100}}>

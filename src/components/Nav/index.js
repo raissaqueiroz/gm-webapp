@@ -19,7 +19,7 @@ const NavComponent = ({ activeKey }) => {
 	} else {
 		return(
 			<>
-				<div style={{width: '70%'}}>
+				<div style={{width: '40%',  paddingRight: '5%'}}>
 					<Nav style={{width: '100%'}} activeKey={activeKey}>
 						<Nav.Item href="/" eventKey="home">Home</Nav.Item>
 						<Nav.Item href="/portas" eventKey="portas">Portas</Nav.Item>
