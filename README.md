@@ -1,68 +1,41 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# GM Esquadrias
 
-## Available Scripts
+Esse site foi desenvolvido para a empresa GM Esquadrias - Portas Automáticas. Você pode conferir o projeto online [clicando aqui](https://gmportasautomaticas.com.br) 
 
-In the project directory, you can run:
+_Foi feito com muito entusiasmo e carinho :)_
 
-### `yarn start`
+## Guia Rápido das Tecnologias Usadas
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<ul>
+  <li>React Hooks</li>
+  <li>React-Suite e React-Animate</li>
+  <li>Consumo de API's com Axios no Form de Contato</li>
+  <li>Mascaras de Inputs Feitas com Regex</li>
+  <li>Media Queries e Pseudo-elementos (::after e ::before)</li>
+  <li>Totalmente Responsivo</li>
+ </ul>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Imagens Demonstrativas
+<p align="center">
+  <img src="https://github.com/raissaqueiroz/gm-webapp/blob/master/screenshots/inicio.png" width=400 height=1200/>
+  <img src="https://github.com/raissaqueiroz/gm-webapp/blob/master/screenshots/portas.png" width=400 height=700/>
+</p>
+<p align="center">
+  <img src="https://github.com/raissaqueiroz/gm-webapp/blob/master/screenshots/empresa.png" width=400 height=500/>
+  <img src="https://github.com/raissaqueiroz/gm-webapp/blob/master/screenshots/contato.png" width=400 height=500/>
+</p>
 
-### `yarn test`
+## Guia Rápido de Instalaçãos
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Antes de qualquer coisa, você precisa ter instaldo o [`NPM & Node`](https://nodejs.org/en/) + e [`Git`](https://git-scm.com/). Para Instalar o  siga o passo a passo de cada link listado abaixo:
 
-### `yarn build`
+- [`NPM & Node`](https://nodejs.org/en/)
+- [`Git`](https://git-scm.com/)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Considerando que você executou as etapas acima com êxito, abra o seu terminal e rode os seguintes comandos:   
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- `git clone https://github.com/raissaqueiroz/gm-webapp.git` 
+- `cd gm-webapp` 
+- `npm install` 
+- `npm run build` 
+- `npm start` or `npm run dev`  
