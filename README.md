@@ -17,12 +17,12 @@ _Foi feito com muito entusiasmo e carinho :)_
 
 ### Imagens Demonstrativas
 <p align="center">
-  <img src="https://github.com/raissaqueiroz/gm-webapp/blob/master/screenshots/inicio.png" width=400 height=200/>
-  <img src="https://github.com/raissaqueiroz/gm-webapp/blob/master/screenshots/portas.png" width=400 height=200/>
+  <img src="https://github.com/raissaqueiroz/gm-webapp/blob/master/screenshots/inicio.png" width=400 height=1200/>
+  <img src="https://github.com/raissaqueiroz/gm-webapp/blob/master/screenshots/portas.png" width=400 height=700/>
 </p>
 <p align="center">
-  <img src="https://github.com/raissaqueiroz/gm-webapp/blob/master/screenshots/empresa.png" width=400 height=200/>
-  <img src="https://github.com/raissaqueiroz/gm-webapp/blob/master/screenshots/contato.png" width=400 height=200/>
+  <img src="https://github.com/raissaqueiroz/gm-webapp/blob/master/screenshots/empresa.png" width=400 height=500/>
+  <img src="https://github.com/raissaqueiroz/gm-webapp/blob/master/screenshots/contato.png" width=400 height=500/>
 </p>
 
 ## Guia Rápido de Instalaçãos
