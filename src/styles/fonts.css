@@ -271,7 +271,7 @@ h4 {
 }
 
 
-
+input { height: 45px !important}
 
 @media all and (max-width: 767px) {
 

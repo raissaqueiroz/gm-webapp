@@ -61,8 +61,6 @@ const FoorterComponent = ({ active, onSelect }) => (
 				<FlexboxGrid.Item style={{padding: '1% 0', display: 'flex', justifyContent: 'center'}} componentClass={Col} colspan={24} md={24}>
 					<h6 style={{marginTop: 60, color: '#FFF', textAlign: 'center'}}>Todos os direitos reservados. 2020.</h6>
 				</FlexboxGrid.Item>
-				{console.log('vai se fode')}
-				{console.log(window.innerWidth <992)}
 		</FlexboxGrid>
 	</Footer>
 );
