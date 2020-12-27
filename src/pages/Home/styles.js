@@ -3,10 +3,10 @@ export const PrimeiroSlide = {
 }
 
 export const ContainerAtendimento24 = {
-	background: '#f6f8f8',
+	background: 'transparent',
 	width: '100%',
-	height: 600,
-	padding: '10px 10%',
+	// height: 600,
+	padding: '100px 10%',
 	display: 'flex',
 	justifyContent: 'center',
 	alignItems: 'center'
@@ -17,6 +17,18 @@ export const ContainerHeaderAtendimento24 = {
 	flexDirection: 'column',
 	justifyContent: 'center',
 	alignItems: 'center'
+}
+
+export const CardAtendimento24  = {
+	// width: "45%",
+	height: 300,
+	display: 'flex',
+	flexDirection: 'column',
+	justifyContent: 'flex-start',
+	alignItems: 'flex-start',
+	background: '#FFF',
+	borderRadius: 15,
+	marginTop: 20
 }
 
 export const ContainerServicosParallax = {

@@ -22,7 +22,8 @@ import {
 	ContainerCardPorta,
 	ContainerEmpresa,
 	ContainerCardEmpresa,
-	CardEmpresa
+	CardEmpresa,
+	CardAtendimento24
 } from './styles';
 
 
@@ -31,8 +32,12 @@ import iconManutencao from '../../assets/images/manutencao.png'
 import porta_3 from '../../assets/images/porta_1.jpg';
 import porta_2 from '../../assets/images/porta_2.jpg';
 import porta_1 from '../../assets/images/porta_3.jpg';
+import icon_human from '../../assets/images/icon_human.png';
+import icon_aviao from '../../assets/images/icon_aviao.png';
+import icon_config from '../../assets/images/icon_config.png';
+import icon_lupa from '../../assets/images/icon_lupa.png';
 
-export default function Home() {
+export default function Home({ history }) {
 	const [loading, setLoading] = useState(true);
 	const [active, setActive] = useState('home');
 
@@ -81,6 +86,31 @@ export default function Home() {
 							automáticas com atendimento especializado.
 						</strong>
 					</FlexboxGrid.Item >
+					<FlexboxGrid.Item componentClass={Col} colspan={24} style={{marginLeft: 115, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginBottom: 40}}>
+						<FlexboxGrid justify="center" className="container-atendimento-24-orders">
+							<FlexboxGrid.Item componentClass={Col} colspan={24} md={12} style={CardAtendimento24} className="card-lupa">
+								<img src={icon_lupa} />
+								<h3 className="title-atendimento24 title-atendimento24-lupa" style={{color: '#00419F', fontFamily: 'Helvetica', fontSize: '1.5rem', fontWeight: 700}}>Primeiro Contato</h3>
+								<span style={{fontSize: '1.2rem', color: '#565454', fontFamily: 'SegoeUI', fontWeight: 700,}}>O Cliente entra em contato conosco.</span>
+							</FlexboxGrid.Item>
+							<FlexboxGrid.Item componentClass={Col} colspan={24} md={12} style={CardAtendimento24} className="card-human">
+								<img src={icon_human} />
+								<h3 className="title-atendimento24 title-atendimento24-human" style={{color: '#00419F', fontFamily: 'Helvetica', fontSize: '1.5rem', fontWeight: 700}}>Situação-Problema</h3>
+								<span style={{fontSize: '1.2rem', color: '#565454', fontFamily: 'SegoeUI', fontWeight: 700, }}>Após a explicação do ocorrido, orientamos <br/> o cliente de forma clara e detalhada.</span>
+							</FlexboxGrid.Item>
+							<FlexboxGrid.Item componentClass={Col} colspan={24} md={12} style={CardAtendimento24} className="card-lupa">
+								<img src={icon_aviao}  />
+								<h3 className="title-atendimento24 title-atendimento24-lupa" style={{color: '#00419F', fontFamily: 'Helvetica', fontSize: '1.5rem', fontWeight: 700}}>Deslocamento</h3>
+								<span style={{fontSize: '1.2rem', color: '#565454', fontFamily: 'SegoeUI', fontWeight: 700,}}>Após todo o processo de análise da <br/> emergência e recursos para o serviço, <br/> iniciamos o deslocamento até  <br/> o cliente.</span>
+							</FlexboxGrid.Item>
+							<FlexboxGrid.Item componentClass={Col} colspan={24} md={12} style={CardAtendimento24} className="card-human">
+								<img src={icon_config}  />
+								<h3 className="title-atendimento24" style={{color: '#00419F', fontFamily: 'Helvetica', fontSize: '1.5rem', fontWeight: 700}}>Recursos</h3>
+								<span style={{fontSize: '1.2rem', color: '#565454', fontFamily: 'SegoeUI', fontWeight: 700,}}>Momento de Preparação dos recursos <br/> para a solucção solicitada.</span>
+							</FlexboxGrid.Item>
+						</FlexboxGrid>
+					</FlexboxGrid.Item>
+
 				</FlexboxGrid>
 			</Grid>
 			<Grid style={ContainerServicosParallax} className="parallax">
@@ -132,9 +162,12 @@ export default function Home() {
 						<strong style={{padding: '20px 5%', textAlign: 'center', fontSize: '1.2rem', color: '#565454', fontFamily: 'SegoeUI', fontWeight: 700}}>Porta Automática de Enrolar Fechada</strong>
 					</FlexboxGrid.Item >
 				</FlexboxGrid>
-				{/* <div style={ContainerHeaderPortas, { width: '20%'}}>
-					<Button size="lg" className="btn-saiba-mais-portas">Saiba Mais</Button>
-				</div> */}
+				<FlexboxGrid.Item componentClass={Col} colspan={24} md={20} style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginBottom: 80}}>
+					<div style={ContainerHeaderPortas, { width: '20%'}}>
+						<Button size="lg" className="btn-saiba-mais-portas" onClick={() => history.push('/portas')}>Saiba Mais</Button>
+					</div>
+				</FlexboxGrid.Item>
+
 			</FlexboxGrid>
 			{/* Nossos Trabalhos */}
 			<FlexboxGrid className="rs-hidden-xs rs-hidden-sm" justify="center" style={{...ContainerPortas, marginBottom: 150}}>

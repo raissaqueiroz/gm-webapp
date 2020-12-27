@@ -219,3 +219,90 @@ h4 {
 	color: rgba(0,73,183,1) !important;
 	text-decoration: dotted !important;
 }
+
+.title-atendimento24::before {
+	content: url(../assets/images/circle.png);
+	/* background-image: url(../assets/images/circle.png); */
+	width: 45px;
+	height:45px;
+	position:relative;
+	top: 5px;
+	left: -15px
+}
+
+.title-atendimento24-deslocamento::after {
+	content: '';
+	color: #707070;
+	position: absolute;
+	left: 280px;
+	top: 110px;
+	width: 220px;
+	height: 325px;
+	display: inline-block;
+	border-top: 5px dashed #bababa;
+	z-index: 999;
+}
+.title-atendimento24-lupa::after {
+	content: '';
+	color: #707070;
+	position: absolute;
+	left: 280px;
+	top: 110px;
+	width: 220px;
+	height: 325px;
+	display: inline-block;
+	border-top: 5px dashed #bababa;
+	z-index: 999;
+}
+
+.title-atendimento24-human::after {
+	content: '';
+	color: #707070;
+	position: absolute;
+	left: 280px;
+	top: 110px;
+	width: 220px;
+	height: 325px;
+	display: inline-block;
+	border-top: 5px dashed #bababa;
+	border-right: 5px dashed #bababa;
+	border-bottom: 5px dashed #bababa;
+	z-index: 999;
+}
+
+
+
+
+@media all and (max-width: 767px) {
+
+	.container-atendimento-24-orders :nth-child(4)::after {
+		content: '';
+		color: #707070;
+		position: absolute;
+		left: 280px;
+		top: 110px;
+		width: 220px;
+		height: 325px;
+		display: inline-block;
+		border-right: 5px dashed #bababa;
+		z-index: 999;
+	}
+
+	.title-atendimento24-lupa::after {
+		border-right: 5px dashed #bababa;
+		/* border-bottom: 5px dashed #bababa; */
+	}
+
+	.container-atendimento-24-orders :nth-child(3)::after{
+		border-right: 0px !important
+	}
+
+	.container-atendimento-24-orders :nth-child(3) {
+		order: 4
+	}
+
+
+
+
+
+}
