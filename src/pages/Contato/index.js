@@ -110,7 +110,7 @@ export default function Contato(){
 					<strong style={{width: '100%', color: '#FFF', fontFamily: 'SegoeUI', fontWeight: 700, marginTop: 40, fontSize: '1rem' }}>
 						<img src={iconTelefone} style={{ width: '2rem', height: '2rem', marginRight: '2%'}} /> (21) 1234 5678 | (21) 1234 5678
 					</strong>
-					<Button size="lg" className="rs-col-xs-10 rs-col-md-6" style={{background: '#4CAF50', marginTop: 60, color: '#FFF'}}>
+					<Button onClick={() => window.href='https://api.whatsapp.com/send?phone=5521990162015'} size="lg" className="rs-col-xs-10 rs-col-md-6" style={{background: '#4CAF50', marginTop: 60, color: '#FFF'}}>
 						<img src={iconWhatsapp} style={{ width: '2rem', height: '2rem', marginRight: '2%'}} /> Whatsapp
 					</Button>
 				</FlexboxGrid.Item>

@@ -40,7 +40,7 @@ const FoorterComponent = ({ active, onSelect }) => (
 						<img src={iconLocalizacao} style={IconLocalizacao} />
 					</div>
 					<div className="contato-descricao" style={ContainerDescricaoLocalizacao}>
-						<h4>Rua Aleatporio do Desconhecido</h4>
+						<h4>Rua Batista de Oliveira, Lote 5 Quadra 69.</h4>
 						<span>Duque de Caxias, RJ</span>
 					</div>
 				</FlexboxGrid.Item>
@@ -50,7 +50,7 @@ const FoorterComponent = ({ active, onSelect }) => (
 						<img src={iconTelefone} style={IconTelefone} />
 					</div>
 					<div style={ContainerDescricaoTelefone}>
-						<h4 style={{lineHeight: '15px', letterSpacing: '.1rem'}}>(21) 1234-5678</h4>
+						<h4 style={{lineHeight: '15px', letterSpacing: '.1rem'}}>(21) 99016-2015</h4>
 						<h4 style={{ letterSpacing: '.1rem'}}>(21) 1234-5678</h4>
 					</div>
 				</FlexboxGrid.Item>
