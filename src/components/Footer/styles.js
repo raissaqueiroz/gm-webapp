@@ -82,3 +82,17 @@ export const IconInstagram = {
 	height: '2.5rem',
 	cursor: 'pointer'
 }
+
+export const BtnWhatsapp = {
+	background: 'rgb(37, 211, 102)',
+    height: '70px',
+    width: '70px',
+    position: 'fixed',
+	bottom: '40px',
+	right: '2%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+	borderRadius: '50%',
+	zIndex: 9999999999,
+}

@@ -306,3 +306,15 @@ input { height: 45px !important}
 
 
 }
+
+.rs-icon-whatsapp:hover {
+	font-size: 4rem !important;
+}
+ .btn-wpp:hover {
+	 height: 80px !important;
+	 width: 80px !important
+ }
+
+ .btn-wpp {
+	 text-decoration: none !important;
+ }

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Footer, FlexboxGrid, Col } from 'rsuite';
-
+import { Footer, FlexboxGrid, Col, Icon  } from 'rsuite';
 import Nav from '../../components/Nav';
 
 import {
@@ -18,7 +17,8 @@ import {
 	ContainerDescricaoTelefone,
 	ContainerSocial,
 	IconFacebook,
-	IconInstagram
+	IconInstagram,
+	BtnWhatsapp
 
 
 } from './styles';
@@ -62,6 +62,7 @@ const FoorterComponent = ({ active, onSelect }) => (
 					<h6 style={{marginTop: 60, color: '#FFF', textAlign: 'center'}}>Todos os direitos reservados. 2020.</h6>
 				</FlexboxGrid.Item>
 		</FlexboxGrid>
+		<a href="https://api.whatsapp.com/send?phone=5521990162015" style={BtnWhatsapp} className="btn-wpp"><Icon icon="whatsapp" style={{ color: '#FFF', fontSize: '3rem' }} /></a>
 	</Footer>
 );
 
