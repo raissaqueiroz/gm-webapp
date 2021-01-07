@@ -45,22 +45,22 @@ const FoorterComponent = ({ active, onSelect }) => (
 					</div>
 				</FlexboxGrid.Item>
 				{/* Telefones */}
-				<FlexboxGrid.Item componentClass={Col} colspan={24} md={8}  style={(window.innerWidth < 992) ? {...ContainerTelefone, justifyContent: 'flex-start', paddingLeft: '0px !important', marginLeft: '25%', marginTop: 20} : {...ContainerTelefone, justifyContent: 'center'}}>
+				<FlexboxGrid.Item componentClass={Col} colspan={24} md={8}  style={(window.innerWidth < 992) ? {...ContainerTelefone, alignItems: 'center', justifyContent: 'flex-start', paddingLeft: '0px !important', marginLeft: '25%', marginTop: 20} : {...ContainerTelefone, justifyContent: 'center'}}>
 					<div style={ContainerIconTelefone}>
 						<img src={iconTelefone} style={IconTelefone} />
 					</div>
 					<div style={ContainerDescricaoTelefone}>
 						<h4 style={{lineHeight: '15px', letterSpacing: '.1rem'}}>(21) 99016-2015</h4>
-						<h4 style={{ letterSpacing: '.1rem'}}>(21) 1234-5678</h4>
+
 					</div>
 				</FlexboxGrid.Item>
 				<FlexboxGrid.Item componentClass={Col} colspan={24} md={8}  style={(window.innerWidth < 992) ? {...ContainerSocial, justifyContent: 'flex-start', paddingLeft: '0px !important', marginLeft: '30%', marginTop: 20} : {...ContainerSocial, justifyContent: 'center'}}>
 					<img src={iconFacebook} style={IconFacebook} onClick={() => window.location.href='https://facebook.com'}/>
 					<img src={iconInstagram} style={IconInstagram} onClick={() => window.location.href='https://instagram.com'} />
 				</FlexboxGrid.Item>
-				<FlexboxGrid.Item style={{padding: '1% 0', display: 'flex', justifyContent: 'center'}} componentClass={Col} colspan={24} md={24}>
-					<h6 style={{marginTop: 60, color: '#FFF', textAlign: 'center'}}>Todos os direitos reservados. 2020.</h6>
-				</FlexboxGrid.Item>
+				{/* <FlexboxGrid.Item style={{padding: '1% 0', display: 'flex', justifyContent: 'center'}} componentClass={Col} colspan={24} md={24}>
+					<h6 style={{marginTop: 60, color: '#FFF', textAlign: 'center'}}>CNPJ: 21.815.032/0001-15</h6>
+				</FlexboxGrid.Item> */}
 		</FlexboxGrid>
 		<a href="https://api.whatsapp.com/send?phone=5521990162015" style={BtnWhatsapp} className="btn-wpp"><Icon icon="whatsapp" style={{ color: '#FFF', fontSize: '3rem' }} /></a>
 	</Footer>

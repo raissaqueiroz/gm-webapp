@@ -61,7 +61,6 @@ export const ContainerDescricaoTelefone = {
 	justifyContent: 'center',
 	alignItems: 'center',
 	height: '4rem',
-	paddingTop: '1rem'
 }
 
 export const ContainerSocial = {
@@ -72,14 +71,15 @@ export const ContainerSocial = {
 }
 
 export const IconFacebook = {
-	width: '2.5rem',
-	height: '2.5rem',
-	cursor: 'pointer'
+	width: '3.5rem',
+	height: '3.5rem',
+	cursor: 'pointer',
+	marginRight: '1%'
 }
 
 export const IconInstagram = {
-	width: '2.5rem',
-	height: '2.5rem',
+	width: '3.5rem',
+	height: '3.5rem',
 	cursor: 'pointer'
 }
 

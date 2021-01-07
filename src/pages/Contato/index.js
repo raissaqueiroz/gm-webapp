@@ -101,7 +101,7 @@ export default function Contato(){
 		<>
 			<Header activeKey="contato" />
 			<FlexboxGrid justify="flex-start" className="parallaxContato" style={{paddingBottom: 150, paddingTop: 150, marginTop: '120px !important'}}>
-				<FlexboxGrid.Item componentClass={Col} colspan={24} md={15} style={{display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', marginTop: 80, marginLeft: '10%'}}>
+				<FlexboxGrid.Item className="description-contact" componentClass={Col} colspan={24} md={15} style={{display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', marginTop: 80, marginLeft: '10%'}}>
 					<h2 style={{textAlign: 'left', fontSize: '2.5rem', color: '#FFF', fontFamily: 'SegoeUI', fontWeight: 700}}>Entre em Contato!</h2>
 					<p style={{marginTop: 40, textAlign: 'left', fontSize: '1.2rem', color: '#FFF', fontFamily: 'Roboto', fontWeight: 100}}>
 						Estamos prontos para atende-lo(a)! Entretanto, precisamos que você realize o preenchimento do formulário ao lado.
@@ -143,7 +143,7 @@ export default function Contato(){
 				</FlexboxGrid.Item>
 				<FlexboxGrid.Item componentClass={Col} colspan={20} md={10} style={{display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', paddingTop: 150, paddingBottom: 80}}>
 					<Iframe
-						url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14727.327248983573!2d-43.303643581150446!3d-22.660058562203247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9972544a2d8821%3A0xf470d066ebd30b24!2sCampo%20Grande%2C%20Duque%20de%20Caxias%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1598213293273!5m2!1spt-BR!2sbr"
+						url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.5497844193737!2d-43.228119885039256!3d-22.633281485151542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x990b308ec06f55%3A0x558e96948106e540!2sR.%20Batista%20de%20Oliveira%2C%205%20-%20quadra%2069%20-%20Rio%20Imbari%C3%AA%2C%20Duque%20de%20Caxias%20-%20RJ%2C%2025266-210!5e0!3m2!1spt-BR!2sbr!4v1609968654401!5m2!1spt-BR!2sbr"
 						width="100%" height={500}
 					/>
 				</FlexboxGrid.Item>

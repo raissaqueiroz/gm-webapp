@@ -114,7 +114,7 @@ h4 {
 	padding-left: 15% !important
 }
 .slider_2 {
-	background: url(../assets/images/slide_1.jpg) !important;
+	background: url(../assets/images/slide_2.jpg) !important;
 	background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
@@ -125,7 +125,7 @@ h4 {
 	align-items: center !important;
 }
 .slider_3 {
-	background: url(../assets/images/slide_1.jpg) !important;
+	background: url(../assets/images/slide_3.jpg) !important;
 	background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
@@ -140,7 +140,8 @@ h4 {
 	font-family: 'SegoeUI' !important;
 	color: #FFF !important ;
 	font-weight: 700 !important;
-	font-size: 3rem !important
+	font-size: 2.5rem !important;
+	margin-bottom: 20px
 }
 
 .slider_1 div .btn-saiba-mais, .slider_2 div .btn-saiba-mais, .slider_3 div .btn-saiba-mais, .btn-enviar {
@@ -227,54 +228,88 @@ h4 {
 	height:45px;
 	position:relative;
 	top: 5px;
-	left: -15px
+	left: -15px;
+	z-index: 999
 }
 
-.title-atendimento24-deslocamento::after {
-	content: '';
-	color: #707070;
-	position: absolute;
-	left: 280px;
-	top: 110px;
-	width: 220px;
-	height: 325px;
-	display: inline-block;
-	border-top: 5px dashed #bababa;
-	z-index: 999;
-}
-.title-atendimento24-lupa::after {
-	content: '';
-	color: #707070;
-	position: absolute;
-	left: 280px;
-	top: 110px;
-	width: 220px;
-	height: 325px;
-	display: inline-block;
-	border-top: 5px dashed #bababa;
-	z-index: 999;
-}
 
-.title-atendimento24-human::after {
-	content: '';
-	color: #707070;
-	position: absolute;
-	left: 280px;
-	top: 110px;
-	width: 220px;
-	height: 325px;
-	display: inline-block;
-	border-top: 5px dashed #bababa;
-	border-right: 5px dashed #bababa;
-	border-bottom: 5px dashed #bababa;
-	z-index: 999;
-}
 
 
 input { height: 45px !important}
 
-@media all and (max-width: 767px) {
+@media all and (min-width: 997px) {
 
+	.title-atendimento24-deslocamento::after {
+		content: '';
+		color: #707070;
+		position: absolute;
+		left: 280px;
+		top: 110px;
+		width: 220px;
+		height: 325px;
+		display: inline-block;
+		border-top: 5px dashed #bababa;
+		z-index: 999;
+	}
+	.title-atendimento24-lupa::after {
+		content: '';
+		color: #707070;
+		position: absolute;
+		left: 330px;
+		top: 110px;
+		width: 170px;
+		height: 325px;
+		display: inline-block;
+		border-top: 5px dashed #bababa;
+		z-index: 999;
+	}
+	.title-atendimento24-deslocamento::after {
+		content: '';
+		color: #707070;
+		position: absolute;
+		left: 330px;
+		top: 100px;
+		width: 170px;
+		height: 325px;
+		display: inline-block;
+		border-top: 5px dashed #bababa;
+		z-index: 999;
+	}
+
+	.title-atendimento24-human::after {
+		content: '';
+		color: #707070;
+		position: absolute;
+		left: 330px;
+		top: 110px;
+		width: 180px;
+		height: 325px;
+		display: inline-block;
+		border-top: 5px dashed #bababa;
+		border-right: 5px dashed #bababa;
+		border-bottom: 5px dashed #bababa;
+		z-index: 999;
+	}
+
+	.card-human h3, .card-lupa h3 { width: 60%}
+	.card-human h3 img, .card-lupa h3 img { float: right}
+
+	.container-atendimento-24-orders div:nth-child(3){
+		margin-top: 30px !important
+	}
+}
+@media all and (max-width: 374px) {
+	.slider_1 div, .slider_2 div, .slider_3 div {
+		padding-left: 0px !important;
+	}
+}
+
+@media all and (max-width: 767px) {
+	.rs-footer div:nth-child(1), .rs-footer div:nth-child(2) { margin-left: 0px !important }
+	.card-human, .card-lupa { margin-left: -30% !important}
+	.btn-saiba-mais-nossas-portas { width: 50% !important}
+	.nossas-portas-img { margin-bottom: 60px}
+	.description-contact {margin-left: 0px !important}
 	.container-atendimento-24-orders :nth-child(4)::after {
 		content: '';
 		color: #707070;
@@ -287,6 +322,8 @@ input { height: 45px !important}
 		border-right: 5px dashed #bababa;
 		z-index: 999;
 	}
+
+
 
 	.title-atendimento24-lupa::after {
 		border-right: 5px dashed #bababa;
